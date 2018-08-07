@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: yue-test
+eureka: 
+  client: 
+    service-url:
+      defaultZone: http://192.168.0.13:30010/eureka/
+  instance: 
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
