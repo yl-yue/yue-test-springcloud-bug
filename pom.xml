@@ -7,5 +7,5 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>yue-test-springcloud-bug</name>
-	<description>Springcloud bug demo project </description>
+	<description>Springcloud bug demo project</description>
 </project>
