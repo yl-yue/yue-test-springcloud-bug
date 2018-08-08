@@ -16,7 +16,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>10</java.version>
-		<library.base.version>0.0.1-SNAPSHOT</library.base.version>
 	</properties>
 
 	<dependencyManagement>
@@ -27,16 +26,6 @@
 				<version>Finchley.SR1</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
-			<dependency>
-				<groupId>ai.yue</groupId>
-				<artifactId>yue-library-base</artifactId>
-				<version>${library.base.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-				<version>1.18.0</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
